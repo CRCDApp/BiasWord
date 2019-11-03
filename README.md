@@ -1,10 +1,8 @@
 # BiasWord-Task
 ## Descrioption
-In this project, first we crawl articles from The Guardians newspaper website.
-After Cleaning raw data and removing punctuation marks, We will use this data to create Word2Vec model to get similar words to our predefined bias target words.
-Then the cosine distance along with similar words will be printed for each target words.
+In this project, first, we crawl articles from The Guardians newspaper website. After Cleaning raw data and removing punctuation marks, We will use this data to create the Word2Vec model to get similar words to our predefined bias target words. Then the cosine distance along with similar words will be printed for each target word.
 
-# How to Use
+# Usage
 ## Manual:
 Install the following package
 ```bash
@@ -30,5 +28,5 @@ print_similarity_table(targetwords, similarwords, distances)
 
 These methods could be found in main.py file.
 
-## Google Colab
+## Google Colab:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17_MOW2twRb5dWj3z3nXEL0ldppHXvLDY)
