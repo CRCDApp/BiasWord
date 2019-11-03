@@ -1,7 +1,7 @@
 from guardians_article_crawler import create_guardians_dataset
 from tokenization import read_model_and_get_similar_words, print_similarity_table, clean_data_and_create_model
 
-targetwords = ['shocked', 'fake']
+targetwords = ['refugee', 'racism', 'nationalism', 'hoax', 'dictator', 'dumb', 'shocked', 'fanatical', 'nasty', 'bigot']
 # Crawl articles from Guardians website
 path = create_guardians_dataset(path='./', articleCount=40000, category='world')
 # Creating Word2Vec model
