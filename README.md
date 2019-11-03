@@ -1,6 +1,6 @@
 # BiasWord-Task
 ## Descrioption
-In this project, first, we crawl articles from The Guardians newspaper website. After Cleaning raw data and removing punctuation marks, We will use this data to create the Word2Vec model to get similar words to our predefined bias target words. Then the cosine distance along with similar words will be printed for each target word.
+In this project, first, we crawl articles from The Guardians newspaper website. After Cleaning raw data and removing punctuation marks, we use this data to create the Word2Vec model to get similar words to our predefined bias target words. Then the cosine distance along with similar words will be printed for each target word.
 
 # Usage
 ## Manual:
@@ -15,7 +15,7 @@ from tokenization import read_model_and_get_similar_words, print_similarity_tabl
 
 targetwords = ['refugee', 'racism', 'nationalism', 'hoax', 'dictator', 'dumb', 'shocked', 'fanatical', 'nasty', 'bigot']
 # Crawl articles from Guardians website
-path = create_guardians_dataset(path='./', articleCount=200, category='world')
+path = create_guardians_dataset(path='./', articleCount=4000, category='world')
 # Creating Word2Vec model
 model = clean_data_and_create_model(dataPath=path, modelPath='./MyModel.model')
 # Loading model and getting similar words
