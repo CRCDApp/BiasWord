@@ -30,3 +30,6 @@ These methods could be found in main.py file.
 
 ## Google Colab:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17_MOW2twRb5dWj3z3nXEL0ldppHXvLDY)
+
+# Note
+Crawling articles, Cleaning data and creating the model is time consuming. You can easily use the Dataset, Cleaned dataset and Model [Here](https://drive.google.com/drive/folders/1cTISKzvJfAb9i0JBPpWcLo7pQtRTts1r).
