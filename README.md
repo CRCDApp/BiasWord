@@ -4,7 +4,7 @@ In this project, first, we crawl articles from The Guardians newspaper website. 
 
 # Usage
 ## Manual:
-Install the following package
+Install requirements using the following command
 ```bash
 pip install -r requirements.txt
 ```
