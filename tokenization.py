@@ -42,7 +42,7 @@ def clean_data(data):
                         ).strip().split(' ') for x in data.split('\n')
                  if not x.endswith('www.theguardian.com')]
     # removing special carachters and lowercasing the string
-    return [[y.replace('“', '').replace('”', '').lower() for y in x] for x in clear_data if x != ['']]
+    return [[y.replace('“', '').replace('”', '').replace('\'','').lower() for y in x] for x in clear_data if x != ['']]
 
 
 def detect_bigrams(data):
