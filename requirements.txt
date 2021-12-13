@@ -16,7 +16,7 @@ gensim==3.8.0
 idna==2.8
 jieba3k==0.35.1
 jmespath==0.9.4
-lxml==4.4.1
+lxml==4.6.5
 newspaper3k==0.2.8
 nltk==3.4.5
 numpy==1.17.2
