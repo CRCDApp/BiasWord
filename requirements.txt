@@ -20,7 +20,7 @@ lxml==4.4.1
 newspaper3k==0.2.8
 nltk==3.4.5
 numpy==1.17.2
-Pillow==6.2.1
+Pillow==9.0.1
 pycparser==2.19
 pyOpenSSL==19.0.0
 PySocks==1.7.1
